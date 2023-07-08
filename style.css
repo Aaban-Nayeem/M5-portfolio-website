@@ -8,6 +8,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.header-section {
+  background-color: #fff8f3;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -41,14 +45,27 @@ nav a {
   font-weight: 400;
 }
 
-.btn-hire {
+.btn-hire,
+.btn-download,
+.btn-contact {
   padding: 18px 35px;
-  width: 150px;
-  height: 64px; 
   border-radius: 5px;
   background: #fd6e0a;
   border: none;
   color: white;
   font-size: 2rem;
   font-weight: 700;
+}
+
+.banner-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 30px 30px 150px;
+}
+
+.hardy-pic {
+  width: 500px;
+
+  flex-shrink: 0;
 }
