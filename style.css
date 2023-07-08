@@ -167,7 +167,7 @@ main {
 
 .resume-description-container {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
 }
 .resume-education,
 .resume-experience {
@@ -175,4 +175,27 @@ main {
   font-family: Open Sans;
   font-size: 30px;
   font-weight: 700;
+}
+
+.education-institute,
+.experience-position {
+  color: #474747;
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.education-duration,
+.experiance-duration {
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+}
+.education-sector-description,
+.experience-position-description {
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 16px;
+  line-height: 28px;
 }
