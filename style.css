@@ -14,6 +14,7 @@ body {
   background-repeat: no-repeat;
   background-position: bottom right;
 }
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -63,7 +64,6 @@ nav a {
   background-color: #fff8f3;
   color: #fd6e0a;
   border: 2px solid #fd6e0a;
-
   font-size: 2rem;
   font-weight: 700;
 }
@@ -96,12 +96,9 @@ nav a {
   width: 500px;
 }
 
-main{
+main {
   max-width: 1050px;
   margin: 0 auto;
-}
-main section{
-  margin-right: 130px;
 }
 
 .about-section {
@@ -112,28 +109,31 @@ main section{
   mask-image: 130px 0;
 }
 
-.about-title {
+.about-title,
+.skill-title,
+.resume-title {
   text-align: center;
-  color: #181818);
+  color: #181818;
   font-family: Open Sans;
   font-size: 3.5rem;
   font-weight: 700;
 }
 
-.about-description {
+.about-description,
+.skill-experiance-description {
   color: #757575;
-text-align: center;
-font-family: Open Sans;
-font-size: 1.8rem;
-line-height: 3rem;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 1.8rem;
+  line-height: 3rem;
 }
 
-.about-info{
+.about-info {
   display: flex;
   justify-content: space-around;
 }
 
-.info-title{
+.info-title {
   color: #757575;
   text-align: center;
   font-size: 2rem;
@@ -141,12 +141,38 @@ line-height: 3rem;
   line-height: 3rem;
   margin: 0;
 }
-.info-description{
-    color: #757575;
+.info-description {
+  color: #757575;
   text-align: center;
   font-size: 2rem;
   line-height: 3rem;
   font-weight: 700;
   margin: 0;
+}
 
+.skill-decription {
+  display: flex;
+}
+.skill-item {
+  padding: 30px;
+  gap: 24px;
+}
+
+.skill-item-decription {
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.resume-description-container {
+  display: flex;
+  justify-content: space-around;
+}
+.resume-education,
+.resume-experience {
+  color: , #474747;
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
 }
