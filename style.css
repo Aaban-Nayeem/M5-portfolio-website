@@ -156,6 +156,9 @@ main {
 .skill-item {
   padding: 30px;
   gap: 24px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
 .skill-item-decription {
@@ -167,14 +170,16 @@ main {
 
 .resume-description-container {
   display: flex;
-  align-items: center;
+  gap: 50px;
 }
+
 .resume-education,
 .resume-experience {
   color: , #474747;
   font-family: Open Sans;
   font-size: 30px;
   font-weight: 700;
+  margin: 30px 0;
 }
 
 .education-institute,
@@ -183,6 +188,7 @@ main {
   font-family: Open Sans;
   font-size: 25px;
   font-weight: 700;
+  margin: 10px 0;
 }
 
 .education-duration,
@@ -191,6 +197,7 @@ main {
   font-family: Open Sans;
   font-size: 20px;
   font-weight: 600;
+  margin: 20px 0;
 }
 .education-sector-description,
 .experience-position-description {
@@ -198,4 +205,11 @@ main {
   font-family: Open Sans;
   font-size: 16px;
   line-height: 28px;
+}
+hr {
+  margin: 30px 0px;
+}
+
+.download-btn-2 {
+  text-align: center;
 }
